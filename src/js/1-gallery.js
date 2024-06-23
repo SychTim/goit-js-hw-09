@@ -78,7 +78,7 @@ const string = images.map(({preview, original, description}) =>
 
 gallery.insertAdjacentHTML('afterbegin', string);
 
-import SimpleLightbox from "simplelightbox/dist/simple-lightbox.esm";
+import SimpleLightbox from "simplelightbox/dist/simple-lightbox.modules";
 
 const slb = new SimpleLightbox('.gallery a', {
   captionsData: "alt",
