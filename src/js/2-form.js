@@ -28,7 +28,8 @@ function formSubmit(evt) {
         alert('Fill please all fields');
         return;
     }
-
+  
+    console.log(formData);
     localStorage.removeItem("feedback-form-state");
     formData.email = '';
     formData.message = '';
