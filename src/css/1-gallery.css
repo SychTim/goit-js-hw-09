@@ -1,3 +1,4 @@
+@import url(../../node_modules/simplelightbox/dist/simple-lightbox.min.css);
 .gallery {
     max-width: 1200px;
     list-style: none;
