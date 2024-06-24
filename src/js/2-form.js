@@ -25,6 +25,7 @@ form.addEventListener('submit', formSubmit);
 function formSubmit(evt) {
     evt.preventDefault();
     if (evt.currentTarget.message.value === '' || evt.currentTarget.email.value === '') {
+        alert('Fill please all fields');
         return;
     }
 
