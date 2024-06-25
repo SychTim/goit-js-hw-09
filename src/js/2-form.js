@@ -12,9 +12,9 @@ form.addEventListener('input', formUpdate);
 
 function formUpdate (evt) {
     if (evt.target.type === "email") {
-        formData.email = evt.target.value;
+        formData.email = evt.target.value.trim();
     } else {
-        formData.message = evt.target.value;
+        formData.message = evt.target.value.trim();
     };
 
     localStorage.setItem("feedback-form-state", JSON.stringify(formData));
